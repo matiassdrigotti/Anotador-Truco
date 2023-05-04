@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.92647a48.css",
+    "main.js": "/static/js/main.3265a174.js",
+    "static/js/787.7eeea1f0.chunk.js": "/static/js/787.7eeea1f0.chunk.js",
+    "static/media/madera oscura 1.jpg": "/static/media/madera oscura 1.d0808ded862b947fc91a.jpg",
+    "index.html": "/index.html",
+    "main.92647a48.css.map": "/static/css/main.92647a48.css.map",
+    "main.3265a174.js.map": "/static/js/main.3265a174.js.map",
+    "787.7eeea1f0.chunk.js.map": "/static/js/787.7eeea1f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92647a48.css",
+    "static/js/main.3265a174.js"
+  ]
+}
