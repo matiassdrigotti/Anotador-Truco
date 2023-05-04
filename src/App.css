@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url(../public/Imagenes/Maderas/madera\ oscura\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center ;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.contador-container {
+  display: flex;
+  gap: .5em;
+  width: 60%;
+}
+
+.reinicio-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contador {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.reiniciar {
+  padding: 1.5em;
+  outline: none;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 2em;
+  font-weight: bold;
+  margin: 1em;
+  background-color: white;
+  transform: scale(1.5);
+}
+
+.reiniciar:hover {
+  background: white;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.reiniciar:active {
+  transform: scale(.9);
+}
+
+.nosotros-container,
+.ellos-container {
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background: #ffffff00;
+  flex-direction: column;
+  padding: 2em;
+  position: relative;
+}
+
+.pantalla-ganar {
+  position: absolute;
+  font-size: 3em;
+  background: #3902f2;
+  color: #fff;
+  font-weight: 900;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5em;
+  height: 400px;
+  top: 50%;
+  text-align: center;
+  box-shadow: .5em .5em 1em rgba(0, 0, 0, 0.507);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttons {
+  width: 100%;
+  gap: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons button {
+  width: 70px;
+  background: #3902f2;
+  border-radius: 100%;
+  height: 70px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 900;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  background: #6034f2;
+}
+
+.buttons button:active {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.puntos {
+  top: 200px;
+  left: 0;
+  gap: 1em;
+  width: 50%;
+  padding: 3.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+h1,
+h2,
+h3 {
+  color: white;
+  font-size: 50px;
+}
