@@ -2,7 +2,7 @@
   "name": "anotador-truco",
   "version": "0.1.0",
   "private": true,
-  "homepages": "https://matiassdrigotti.github.io/Anotador-Truco",
+  "homepages": "https://matiassdrigotti.github.io/Anotador-Truco.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
